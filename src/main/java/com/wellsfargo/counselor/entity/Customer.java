@@ -1,9 +1,7 @@
 package com.wellsfargo.counselor.entity;
 
-import jakarta.persistence.*;
 
-
-public class customer {
+public class Customer {
 
 
 
@@ -12,10 +10,10 @@ public class customer {
 
     private String name;
 
-    public customer() {
+    public Customer() {
     }
 
-    public customer(String name) {
+    public Customer(String name) {
         this.name = name;
     }
 
